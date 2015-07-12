@@ -1,0 +1,40 @@
+body {
+    .container {
+        width: 940px;
+        margin: 0 auto;
+        padding: 60px 40px;
+    }
+    .clearfix {
+        &::after {
+            display: table;
+            content: "";
+            clear: both;
+        }
+    }
+    .wrapper {
+        font-size: 0;
+    }
+    h1, h2, h3, h4 {
+        font-family: "Lato Black";
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-family: "Lato Light";
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    figcaption>p{
+        font-family: "Lato Regular";
+        font-size: 12px;
+        line-height: 20px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
